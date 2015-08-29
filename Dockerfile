@@ -8,6 +8,7 @@ RUN apt update && apt install -y \
     patch \
     make \
     build-essential \
+    openssh-client \
     --no-install-recommends && \
     rm -rf /var/lib/apt/lists/*
 
